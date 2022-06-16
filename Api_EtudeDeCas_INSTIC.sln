@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api_EtudeDeCas_INSTIC", "Api_EtudeDeCas_INSTIC\Api_EtudeDeCas_INSTIC.csproj", "{6798FB46-7A65-4240-B31A-ED361B54085A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6798FB46-7A65-4240-B31A-ED361B54085A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6798FB46-7A65-4240-B31A-ED361B54085A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6798FB46-7A65-4240-B31A-ED361B54085A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6798FB46-7A65-4240-B31A-ED361B54085A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C14E741-A34E-4896-8AA8-DDE1CFDDA2D5}
+	EndGlobalSection
+EndGlobal
