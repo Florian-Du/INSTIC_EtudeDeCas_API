@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using MySql.Data.MySqlClient;
 using System.Text.Json;
 using System.Text.Json.Nodes;
+using System.Text.Json.Serialization;
 
 namespace Api_EtudeDeCas_INSTIC.Controllers
 {
@@ -157,7 +158,7 @@ namespace Api_EtudeDeCas_INSTIC.Controllers
 
         // POST: Compte/Login
         [HttpPost]
-        public ActionResult Login([FromBody] JsonObject _Compte)
+        public string Login([FromBody] JsonObject _Compte)
         {
             try
             {
@@ -181,12 +182,14 @@ namespace Api_EtudeDeCas_INSTIC.Controllers
                         Compte.Email = rdr["Email"].ToString() ?? "0";
                         Compte.Password = rdr["Password"].ToString() ?? "";
 
-                        return Json(Compte);
+                        string jsonString = JsonSerializer.Serialize(Compte);
+
+                        return jsonString;
                     }
 
                 }
 
-                return Json(null);
+                return null;
 
 
             }

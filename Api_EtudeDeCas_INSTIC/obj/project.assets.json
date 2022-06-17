@@ -1328,19 +1328,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\flori\\.nuget\\packages\\": {}
+    "C:\\Users\\stagiaire\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\flori\\Source\\Repos\\INSTIC_EtudeDeCas_API\\Api_EtudeDeCas_INSTIC\\Api_EtudeDeCas_INSTIC.csproj",
+      "projectUniqueName": "C:\\Users\\stagiaire\\Source\\Repos\\INSTIC_EtudeDeCas_API\\Api_EtudeDeCas_INSTIC\\Api_EtudeDeCas_INSTIC.csproj",
       "projectName": "Api_EtudeDeCas_INSTIC",
-      "projectPath": "C:\\Users\\flori\\Source\\Repos\\INSTIC_EtudeDeCas_API\\Api_EtudeDeCas_INSTIC\\Api_EtudeDeCas_INSTIC.csproj",
-      "packagesPath": "C:\\Users\\flori\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flori\\Source\\Repos\\INSTIC_EtudeDeCas_API\\Api_EtudeDeCas_INSTIC\\obj\\",
+      "projectPath": "C:\\Users\\stagiaire\\Source\\Repos\\INSTIC_EtudeDeCas_API\\Api_EtudeDeCas_INSTIC\\Api_EtudeDeCas_INSTIC.csproj",
+      "packagesPath": "C:\\Users\\stagiaire\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\stagiaire\\Source\\Repos\\INSTIC_EtudeDeCas_API\\Api_EtudeDeCas_INSTIC\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\flori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\stagiaire\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1397,7 +1401,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
